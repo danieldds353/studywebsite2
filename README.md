@@ -1,69 +1,55 @@
-# ITEC 3505 Study Lab
+# ITEC 3505 Study Lab — textbook midterm update
 
-An independent, textbook-based study website for AP/ITEC 3505 A, Fall 2026, IT Project Management with Marius Dobre.
+A GitHub-ready static website for Schwalbe’s *Information Technology Project Management*, ninth edition, Chapters 1–6.
 
-## Put it on GitHub Pages
+## Open or host
 
-1. Unzip the package.
-2. Create a separate repository for this course so you do not replace your 3210 website.
-3. In the repository, choose **Add file → Upload files**. Upload the extracted `index.html`, `styles.css`, `app.js`, `data.js`, and `README.md` to the repository's top level. Upload `.nojekyll` too if your file picker shows it; the site uses ordinary static files and does not rely on this hidden file.
-4. Commit the upload to `main`.
-5. Open **Settings → Pages**. Under Source, select **Deploy from a branch**. Select **main** and **/(root)**, then save.
-6. GitHub will display the website address when publication is complete.
+Unzip the download. Open `index.html` in a browser for local use. For GitHub hosting, place the extracted files in your repository’s publishing folder, with `index.html` at that folder’s root. Do not upload only the ZIP: hosting needs the extracted website files. Keep `data.js`, `app.js`, `styles.css`, and the companion files together. No package installation or build command is needed. All website links and assets are relative, so repository subpaths work.
 
-Upload the extracted files, not the ZIP itself. `index.html` must be at the selected publishing folder's top level.
+The ZIP includes `.nojekyll`. There are no credentials, backend services, analytics, font downloads, or bundled textbook PDFs. This package has not been uploaded or published to GitHub for you.
 
-Official instructions: [GitHub Pages publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+## What changed
 
-To use the site immediately on your computer, open `index.html` in a modern browser. No installation, account, server, build step, or API key is required. Optional Google Fonts improve typography when online; system fonts work without a connection.
+- Replaced the previous Chapters 1–6 bank with **100 original questions: 72 multiple choice and 28 true/false**.
+- Added an explanation and specific printed textbook page references to every new question.
+- Updated the full midterm mock to **100 questions**, with a **90-minute default**. There are also 80- and 120-minute practice options and a separate 72-MCQ practice mode.
+- Preserved chapter filters, flashcards, retry-missed practice, flags, timer, answer navigation, automatic submission at timeout, explanations, and chapter-level results.
+- Added `printable.html`: all 100 questions followed by a separate explained answer key. Use the page’s Print / save as PDF button if you want a paper copy.
+- Added `STUDY_GUIDE.md`: coverage, formulas, study method, and edition-specific cautions.
+- Kept the existing **105 questions for Chapters 7–13**. Those final-exam questions were not rewritten or reverified in this update. Total bank: 205.
 
-## What is included
+## What is confirmed, and what is a practice choice
 
-- 207 original questions with answers and explanations.
-- Midterm: 90 MCQs plus 12 true/false questions, chapters 1–6.
-- Final: 91 MCQs plus 14 true/false questions, chapters 7–13.
-- Paragraph-style midterm scenarios, conceptual distinctions, and worked calculations.
-- Chapter filters in teaching order, practice mode, flashcards, and retry-missed mode.
-- 90-question mock exams for either scope, with 80- or 90-minute limits.
-- MCQ-only mocks or a mixed MCQ/true-false practice selection.
-- Shuffled mock order and MCQ choices, question flags, navigation, automatic time-limit submission, scores, and chapter breakdowns.
-- Concise notes for all 13 chapters and formula reminders.
-- Browser-saved latest-answer progress, self-rated flashcard recall, active exam, and the most recent 20 completed exams.
+You confirmed that the midterm has **100 multiple-choice or true/false questions covering Chapters 1–6**, and that your professor says the textbook is the required resource. The supplied syllabus lists October 21, 2026, 4:00–5:30 pm, closed book, worth 40%.
 
-## How the material was chosen
+The instructor’s exact MCQ/true-false ratio, chapter weighting, and questions are unknown. The 72/28 mix and chapter allocation below are study-design choices, not predictions. Repeated mocks shuffle this same bank and the MCQ options; they do not generate new questions.
 
-Questions are original applications of central textbook concepts, chapter summaries, key distinctions, and common calculation methods. Midterm MCQs are distributed evenly across chapters 1–6 (15 per chapter); final MCQs are distributed evenly across chapters 7–13 (13 per chapter). This is a study-coverage choice, not an estimate of the professor's actual weighting.
+| Chapter | New MCQ | New true/false | Total |
+| --- | ---: | ---: | ---: |
+| 1 — Foundations | 12 | 4 | 16 |
+| 2 — IT project context | 12 | 4 | 16 |
+| 3 — Process groups and JWD cases | 12 | 6 | 18 |
+| 4 — Integration | 12 | 6 | 18 |
+| 5 — Scope | 12 | 4 | 16 |
+| 6 — Schedule | 12 | 4 | 16 |
+| **Total** | **72** | **28** | **100** |
 
-The midterm bank emphasizes project versus operations, constraints, program versus portfolio, organizational frames and structures, process groups, Scrum roles and events, project selection calculations, authorization and change control, scope baselines, acceptance, dependencies, critical path, float, compression, and PERT. It does not reproduce the publisher's test bank or claim to predict exact exam items. Final practice is shorter and more concept-focused than the midterm paragraph bank.
+The questions use textbook definitions, short application scenarios, document distinctions, process mappings, and financial/scheduling calculations. These are original study questions, not copied textbook quizzes, actual exam questions, or a guarantee of coverage. Read the assigned chapters as well.
 
-No sample exam was available. No actual exam questions, publisher instructor test bank, or instructor-specific question patterns were verified. Student reports about long paragraphs and 90 MCQs in 80 minutes were supplied by the user, not independently verified. Repeated mock attempts reuse this finite bank, not newly generated questions. The site is a revision companion, not exhaustive coverage of every textbook detail or lecture example.
+## Sources and page references
 
-## Confirmed course scope and timing
+Primary source: Kathy Schwalbe, *Information Technology Project Management*, ninth edition, supplied by you. Chapters 1–6 are printed pp. 1–284. The conceptual answer explanations cite narrower page ranges. For the supplied textbook PDF, the PDF viewer page is the printed page **plus 25**.
 
-Based on the supplied Fall 2026 syllabus:
+Your professor’s supplied `ITEC3505 Practice Questions for Midterm Exam_eClass.pdf` informed the concise question style and emphasis on distinctions. Your uploaded notes were secondary context; the textbook controls the new answers. Fictional scenarios and numbers in this bank are teaching examples. Questions explicitly naming JWD Consulting refer to the textbook’s cases.
 
-- Midterm: October 21, 2026, 4:00–5:30 pm; chapters 1–6; 40% of the course grade.
-- Final: December 10–23 exam window, exact date/time/location set by the registrar; chapters 7–13; 90 minutes; 45%.
-- Both are closed-book MCQ and true/false exams.
-- The syllabus does not confirm 90 questions, an 80-minute limit, or a specific MCQ/true-false ratio. The 80-minute setting is pressure practice based on reported experiences; the 90-minute setting matches the syllabus duration. Check later course announcements for changes.
+## Progress and older attempts
 
-## Sources and reading references
+Progress is stored only in your browser’s local storage. Local-file and hosted-site histories are separate. Private browsing, blocked storage, or clearing browser data can prevent or remove saved progress. No progress is sent to a server.
 
-1. User-supplied **3505 syllabus.pdf**, AP/ITEC 3505 A 3.0, Fall 2026, effective September 3, 2026. Exam details and the weekly schedule determine the two study scopes.
-2. User-supplied **Information Technology Project Management.pdf**, Kathy Schwalbe, *Information Technology Project Management*, ninth edition, Cengage, copyright 2019, ISBN 978-1-337-10135-6. Concepts, notes, and explanations are based on chapters 1–13.
+New midterm questions use new IDs, so old answers cannot be incorrectly applied to the replacement questions. Old exam scores remain listed when available, but detailed review is unavailable if an attempt used removed questions. An in-progress attempt containing removed IDs is discarded on load because it cannot be reconstructed accurately. Final-exam questions retain their existing IDs.
 
-Each answer identifies a chapter and reading topic. Topic labels are reading cues, not necessarily exact subsection titles. Page ranges refer to the full chapter, not a pinpoint location for the answer. In the provided PDF, chapter text begins on PDF page 26 (printed page 1), giving a +25 page offset. Chapter 6 is titled Project Schedule Management and chapter 9 Project Resource Management in the ninth edition; the syllabus uses Time Management and Human Resources Management. The supplied ninth edition is used consistently.
+## Validation
 
-The PDFs are not bundled or uploaded. The website contains original practice questions and paraphrased revision notes, not scans or copies of the textbook's questions.
+The bank has 100 unique new questions and valid answer indices, with the chapter/type counts above. The MCQ correct-answer positions are balanced across A–D before the mock’s independent shuffling. Financial calculations and schedule examples were checked independently. JavaScript syntax and programmatic exam, scoring, persistence, and legacy-history checks passed. Relative links and packaged files were checked.
 
-## Study workflow
-
-Read an assigned chapter, review its notes, answer practice questions without looking, then read the explanations—including those for correct guesses. Use flashcards for recall and retry missed questions to revisit weak distinctions. Take a timed mock after covering the full exam scope. At 90 questions in 80 minutes, the average allowance is about 53 seconds per question. Flag difficult items and return if time remains.
-
-## Progress and exam behavior
-
-Progress is local to the browser and site address. It does not sync across devices; opening the local file and opening GitHub Pages use separate storage. Private browsing, browser restrictions, or clearing site data can remove progress. If storage is blocked, the app works for the current visit but cannot retain progress reliably.
-
-The mock timer continues while viewing other sections, switching tabs, or closing the page. If a page is reopened after the deadline, the exam submits when the app runs again. Unanswered questions count as incorrect; all questions carry equal weight. An active practice mock is for self-study, not a secure proctored examination. The static site necessarily contains the answer data.
-
-Retry-missed and unattempted modes take a snapshot when you enter the view so checking an answer does not skip the next item. Reopen the filter to refresh membership. Progress shows the latest answer per question rather than inflating accuracy with repeated submissions. Flashcard “Got it” ratings are tracked separately from question accuracy.
+A live browser preview was unavailable in the authoring environment, so visual layout and real-browser interactions were not fully verified here.
