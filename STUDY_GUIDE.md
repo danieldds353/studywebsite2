@@ -1,4 +1,6 @@
-# Using the 100-question bank
+# Using the midterm practice sets
+
+The website now has separate **Practice Set 1** and **Practice Set 2** tabs, each with 100 questions and its own progress. The question-ID table below describes Set 1; Set 2 adds fresh scenarios across the same six chapters, with its own page references on every answer.
 
 Read the textbook chapter, answer its practice questions without looking, and explain each missed distinction in your own words. Use the printed page references to return to the source. Then attempt the 100-question mixed mock. A high score on repeated identical questions may reflect familiarity; vary your reasoning by changing a condition in the scenario and predicting how the answer would change.
 
