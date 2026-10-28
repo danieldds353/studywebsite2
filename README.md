@@ -1,3 +1,71 @@
+# New lecture: Chapters 7-8 — Cost and Quality
+
+This update adds the **Chapters 7-8** tab: **60 new original questions**, 30 per chapter (24 MCQ + 6 true/false each), with explanations, textbook printed-page references, and lecture PDF slide references. The complete **29-page explained PDF guide** is linked from that tab and included as `chapters7-8-guide.pdf`.
+
+## Upload
+
+Extract the ZIP. Upload **all extracted files into the same GitHub repository folder that contains your existing `index.html`**, replacing matching files and adding new ones. Do not upload only the ZIP or place everything inside another folder. After GitHub Pages updates, select **Chapters 7-8**. Navigation scrolls sideways on narrow screens.
+
+No build, account, API key, or installation is needed. This is the complete website; it has not been published for you.
+
+## New chapter features
+
+- `chap78.html`: the separate new question set.
+- `chap78-data.js`: 60 questions and revision notes for Chapters 7 and 8.
+- `chap78-app.js`: practice, flashcards, chapter/type filters, retry-missed, timed practice, history, flags, and progress.
+- `chap78-printable.html`: all 60 questions with explained answers; browser printing can include/exclude the answer key.
+- `chapters7-8-guide.pdf`: explanations, original worked examples and charts, formula sheet, case-study lessons, retrieval questions, edition notes, and source references.
+
+The mixed mock uses all 60 questions (48 MCQ + 12 true/false), with shuffled order and MCQ options. MCQ-only practice uses 48 questions. Time limits of 45, 60, and 90 minutes are **practice settings**, not confirmed instructor timing. Retakes reuse this bank. The instructor's format and weighting for these chapters are unconfirmed.
+
+The new bank uses the separate browser-storage key `itec3505-ch7-8-v1`. Its reset affects only that bank. Existing PM question data, earlier storage keys, and networking answers are preserved. Progress depends on using the same browser and website origin; it does not transfer between local files and GitHub Pages. Active timed attempts continue across refreshes and other tabs; an expired attempt submits when reopened.
+
+## Sources and verification
+
+The supplied Chapter 7 lecture has 40 slides; Chapter 8 has 57. The primary reference is Schwalbe, *Information Technology Project Management*, ninth edition, Chapters 7 and 8. Every new explanation cites printed textbook pages and lecture slide numbers. Numerical questions state assumptions; scenarios are original unless explicitly identified as textbook cases. Neither source PDF nor textbook pages are redistributed.
+
+The study PDF explains discrepancies involving definitive-estimate purposes, Manage Quality terminology, verified/accepted deliverables, sampling rounding and confidence/error inputs, and the edition's CMMI labels. NIST's sample-size handbook is cited for the statistical clarification. Historical statistics and software references are treated as historical.
+
+Programmatic checks validate question counts, choice mappings, chapter/type filters, scoring, saved attempts, flashcards, resets, source references, calculations, links, and ZIP integrity. Previous-bank checks are rerun. The PDF is rendered for visual inspection. Live browser layout preview remains unavailable in this environment.
+
+---
+
+Earlier-bank documentation follows; its assessment-format statements apply to those older banks only.
+
+# Study Lab — Networking Midterm update
+
+**New tab: Networking Midterm.** Includes exactly **34 original MCQs and 3 short answers**, with 1–2 sentence model answers. This category covers networking and is separate from the existing ITEC 3505 project-management banks.
+
+## Upload this version
+
+Extract the ZIP and upload **all its contents into the existing GitHub Pages folder containing `index.html`**, replacing matching files. Do not upload the ZIP itself or add an extra enclosing folder. Open your existing site and choose **Networking Midterm**. On a narrow screen, scroll the navigation sideways.
+
+You can also open `networking.html` directly on your computer. No build, account, installation, or server is required. Browser-local saving may be restricted for local files.
+
+## Networking practice
+
+- 12 subnetting MCQs, 12 TCP/UDP/transport MCQs, 6 intranet/extranet/access MCQs, and 4 networking-foundation MCQs, mixed into a fixed 34-question order.
+- 3 short answers: TCP versus UDP, the transport layer, and extranets. Aim for 1–2 sentences each.
+- One question at a time, question navigation, saved responses, submission, automatic MCQ score out of 34, topic results, and explanations.
+- Short answers are **not automatically graded**. Compare your response with the model and self-assess two key points per question. The optional score out of 6 is a practice convention, not an instructor rubric.
+- Quick review includes the difference between borrowed bits, number of subnets, and usable-host counts.
+- `networking-printable.html` provides the questions and answer key; its print buttons can save a PDF with or without answers.
+- Retrying replaces only the current networking attempt and uses the same questions. Progress for the two PM sets remains independent.
+
+This is untimed practice. The screenshot supplies topic guidance, not a confirmed exam outline. The question mix and difficulty are practice choices. All questions are original teaching examples; references link to RFCs, Cisco, NIST, and Cloudflare. The Cisco extranet case is historical and used only to illustrate the concept. The networking questions are not attributed to Schwalbe.
+
+Files added: `networking.html`, `networking.css`, `networking.js`, `networking-data.js`, and `networking-printable.html`. Existing `app.js`, `index.html`, and `set2.html` add the category link and refreshed asset versions. The original question-bank files and printable PM exams are preserved.
+
+Networking responses stay in this browser under a separate storage key. There is no backend or answer upload. If storage is unavailable, the interface displays a warning and works for the current page session.
+
+## Verification of this update
+
+Programmatic checks cover exact question counts, valid choices, scores, short-answer self-assessment, saved responses, safe display of typed text, reset isolation, subnet calculations, relative links, and ZIP integrity. The existing PM bank tests are also run. Live browser layout could not be verified under the current preview restrictions.
+
+---
+
+The prior PM-specific documentation follows; its exam-format notes apply only to those PM banks.
+
 # ITEC 3505 Study Lab — two separate midterm practice sets
 
 This update adds **Practice Set 2**: 100 additional original questions covering Chapters 1–6 of Schwalbe’s *Information Technology Project Management*, ninth edition.
